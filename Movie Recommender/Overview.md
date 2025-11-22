@@ -6,6 +6,9 @@
 
 *Dataset*
 - Letterboxd: I outputted all movies I have watched and rated on Letterboxd, which includes the title and my rating
+
+    <img width="731" height="394" alt="image" src="https://github.com/user-attachments/assets/52b73313-8cab-4b01-875a-dc086f656f36" />
+
 - The Movie Database (TMDB): I outputted two different sets of data using an API for this database. The first dataset included relevant attributes of the movies I had rated on letterboxd, so I could use them to train my model. The second dataset included the top 500 rated movies on the site (which i removed movies I had seen from) to be used to put into the model and reccomend movies for me to watch next.
 
 *Results*:
@@ -48,21 +51,31 @@
 *Methods*
 
 - Neural Network: Using a 20% test set of the data, my network with 2 hidden layers produced an RMSE of 0.86 and MAE of 0.68. In an attempt to se how accurate I could get the model I also attempted two more firther methods.
-<img width="676" height="539" alt="image" src="https://github.com/user-attachments/assets/d9a79c0d-d58f-4aab-816d-ca9c0e689be7" />
+    <img width="676" height="539" alt="image" src="https://github.com/user-attachments/assets/d9a79c0d-d58f-4aab-816d-ca9c0e689be7" />
 
 -    K-Fold: I used 5 folds, 10 repeats (50 total) with this method which produced a Mean MAE of 0.25 and Standard Deviation of MAE at 0.018.
 -   Bootstrapping: I used 50 bootstraps in this method which produced a Mean MAE of 0.25 and Standard Deviation of MAE at 0.017.
-<img width="560" height="446" alt="image" src="https://github.com/user-attachments/assets/ce5c7cef-0e6b-4ace-a0ca-21512da2928f" />
-<img width="477" height="373" alt="image" src="https://github.com/user-attachments/assets/beb207c4-bb65-44cb-a2ca-3a1509add4a1" />
+   <img width="560" height="446" alt="image" src="https://github.com/user-attachments/assets/ce5c7cef-0e6b-4ace-a0ca-21512da2928f" />
+    <img width="477" height="373" alt="image" src="https://github.com/user-attachments/assets/beb207c4-bb65-44cb-a2ca-3a1509add4a1" />
 
 
 
+*Additional Charts*
+
+Below are some charts I found interesting during my exploratory analysis
+
+- I imagine this time trend could have happened because I was adding movies I had seen in the past, but not logged, all at once. The nostalgia could have led to better rankings
+  <img width="707" height="407" alt="image" src="https://github.com/user-attachments/assets/ce0046ee-0f2a-4a99-8953-6481c41a51e3" />
 
 
+- There was a correlation of 0.47 between my ratings and TMDB's after scaling
+  <img width="707" height="473" alt="image" src="https://github.com/user-attachments/assets/f8a9be7c-0142-4f98-9315-02ba0dd03909" />
+
+- As you can see, I watch horror movies, but do not love them
+  <img width="760" height="459" alt="image" src="https://github.com/user-attachments/assets/585641ec-e5cc-445e-a480-779281f672b2" />
 
 
-
-
+- More can be found in the full code file attached
 
 
 
