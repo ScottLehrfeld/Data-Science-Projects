@@ -45,3 +45,25 @@
       *A note that #4 is the combo of parts 1 and 2 of a movie I have already seen part 1 of, and part 2 is the #13 reccomended)*
 
   
+*Methods*
+
+- Neural Network: Using a 20% test set of the data, my network with 2 hidden layers produced an RMSE of 0.86 and MAE of 0.68. In an attempt to se how accurate I could get the model I also attempted two more firther methods.
+<img width="676" height="539" alt="image" src="https://github.com/user-attachments/assets/d9a79c0d-d58f-4aab-816d-ca9c0e689be7" />
+
+-    K-Fold: I used 5 folds, 10 repeats (50 total) with this method which produced a Mean MAE of 0.25 and Standard Deviation of MAE at 0.018.
+-   Bootstrapping: I used 50 bootstraps in this method which produced a Mean MAE of 0.25 and Standard Deviation of MAE at 0.017.
+<img width="560" height="446" alt="image" src="https://github.com/user-attachments/assets/ce5c7cef-0e6b-4ace-a0ca-21512da2928f" />
+<img width="477" height="373" alt="image" src="https://github.com/user-attachments/assets/beb207c4-bb65-44cb-a2ca-3a1509add4a1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
