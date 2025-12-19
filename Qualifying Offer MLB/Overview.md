@@ -4,7 +4,7 @@ Scott Lehrfeld
 
 To begin, I would like to acknoledge I have no problem with Trent Grisham. I would say indifferent is the strongest word I would use. My friend however does not feel this way. As a Yankees fan he was dissapointed Grisham was offered the qualifying offer (QO), and irate that he accepted it. 
 
-His passion peaked my interest, as I was not sure if there was a fair way to judge a team for their judgement on when to offer this special deal. It has only existed since 2012, and the book is not out on how to proceed perfectly for both player and front office. In fact, 2025 marked the most ever acceptances in one season. My question is, did the Yankees make a mistake, or can my friend feel better about this front office decision?
+His passion peaked my interest, as I was not sure if there was a fair way to judge a team for their decision on when to offer this special deal. It has only existed since 2012, and the book is not out on how to proceed perfectly for both player and front office. In fact, 2025 marked the most ever acceptances in one season. My question is, did the Yankees make a mistake, or can my friend feel better about this front office decision?
 
 As I continued to look into the history of the qualifying offer, which has only existed since 2012, the scope of my interest expanded. The topics I covered in this project included:  
 1. History of qualifying offer summary
